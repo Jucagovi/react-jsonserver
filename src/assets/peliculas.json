@@ -1,0 +1,250 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Inception",
+      "director": "Christopher Nolan",
+      "url_poster": "https://picsum.photos/400/600/?random=1",
+      "recaudacion": "US$ 58,700,000",
+      "genero": "Ciencia Ficción",
+      "premio_oscar": true,
+      "actores": ["123e4567-bc1a-4ab8-9f0d-2b8ca3f9e8fb","1a2b3c4d-5dcf-6ef8-bdf9-cad0f98801cb","6d8285be-bc1a-4ab8-9f0d-2b8ca3f9e8fr"]
+    },
+    {
+      "id": 2,
+      "titulo": "Titanic",
+      "director": "James Cameron",
+      "url_poster": "https://picsum.photos/400/600/?random=5",
+      "recaudacion": "US$ 1,848,262,710",
+      "genero": "Drama",
+      "premio_oscar": false,
+      "actores": ["123e4567-bc1a-4ab8-9f0d-2b8ca3f9e8fb","1a2b3c4d-5dcf-6ef8-bdf9-cad0f98801aa","8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c85"]
+    },
+    {
+      "id": 3,
+      "titulo": "The Matrix",
+      "director": "Lana y Lilly Wachowski",
+      "url_poster": "https://picsum.photos/400/600/?random=9",
+      "recaudacion": "US$ 63,359,051",
+      "genero": "Ciencia Ficción",
+      "premio_oscar": false,
+      "actores": ["f1b2c3d4-e6c8-45a9-b5ac-69ef730cb599","6d8285be-bc1a-4ab8-9f0d-2b8ca3f9e8fb","a1b2c3d4-6f8c-b5ac-e9af-cad0f98801mt"]
+    },
+    {
+      "id": 4,
+      "titulo": "Avengers: Endgame",
+      "director": "Anna Boden y Ryan Fleck",
+      "url_poster": "https://picsum.photos/400/600/?random=13",
+      "recaudacion": "US$ 2,549,000,000",
+      "genero": "Ciencia Ficción/Superhéroes",
+      "premio_oscar": false,
+      "actores": ["f1b2c3d4-e6c8-45a9-b5ac-69ef730cb55e","a1b2c3d4-6f8c-b5ac-e9af-cad0f98801cb","8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c70"]
+    },
+    {
+      "id": 5,
+      "titulo": "Django Unchained",
+      "director": "Quentin Tarantino",
+      "url_poster": "https://picsum.photos/400/600/?random=17",
+      "recaudacion": "US$ 171,798,163",
+      "genero": " Western",
+      "premio_oscar": false,
+      "actores": ["123e4567-bc1a-4ab8-9f0d-2b8ca3f9e8fb","1a2b3c4d-5dcf-6ef8-bdf9-cad0f98801cc"]
+    },
+    {
+      "id": 6,
+      "titulo": "Gladiator",
+      "director": "Ridley Scott",
+      "url_poster": "https://picsum.photos/400/600/?random=20",
+      "recaudacion": "US$ 470,000,000",
+      "genero": "Historia/Épica",
+      "premio_oscar": false,
+      "actores": ["f1b2c3d4-e6c8-45a9-b5ac-69ef730cb55z","a1b2c3d4-6f8c-b5ac-e9af-cad0f98801cz","8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c68"]
+    },
+    {
+      "id": 7,
+      "titulo": "The Lord of the Rings: Fellowship of the Ring",
+      "director": "Peter Jackson",
+      "url_poster": "https://picsum.photos/400/600/?random=24",
+      "recaudacion": "US$ 372,710,000",
+      "genero": "Ciencia Ficción/Epic fantasy",
+      "premio_oscar": false,
+      "actores": ["f1b2c3d4-e6c8-45a9-b5ac-69ef730cb55f","a1b2c3d4-6f8c-b5ac-e9af-cad0f98801cc","8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c69"]
+    },
+    {
+      "id": 8,
+      "titulo": "Fellowship of the Ring",
+      "director": "Peter Jackson",
+      "url_poster": "https://picsum.photos/400/600/?random=28",
+      "recaudacion": "US$ 372,710,000",
+      "genero": "Ciencia Ficción/Epic fantasy",
+      "premio_oscar": false,
+      "actores": ["f1b2c3d4-e6c8-45a9-b5ac-69ef730cb55f","a1b2c3d4-6f8c-b5ac-e9af-cad0f98801cc","8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c69"]
+    },
+    {
+      "id": 9,
+      "titulo": "The Two Towers",
+      "director": "Peter Jackson",
+      "url_poster": "https://picsum.photos/400/600/?random=32",
+      "recaudacion": "US$ 745,710,000",
+      "genero": "Ciencia Ficción/Epic fantasy",
+      "premio_oscar": false,
+      "actores": ["f1b2c3d4-e6c8-45a9-b5ac-69ef730cb55f","a1b2c3d4-6f8c-b5ac-e9af-cad0f98801cc","8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c69"]
+    },
+    {
+      "id": 10,
+      "titulo": "The Return of the King",
+      "director": "Peter Jackson",
+      "url_poster": "https://picsum.photos/400/600/?random=36",
+      "recaudacion": "US$ 1,188,710,000",
+      "genero": "Ciencia Ficción/Epic fantasy",
+      "premio_oscar": false,
+      "actores": ["f1b2c3d4-e6c8-45a9-b5ac-69ef730cb55f","a1b2c3d4-6f8c-b5ac-e9af-cad0f98801cc","8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c69"]
+    }
+  ],
+  "actores": [
+    {
+      "id": "f1b2c3d4-e6c8-45a9-b5ac-69ef730cb55f",
+      "nombre": "Ian",
+      "apellidos": "McKellen",
+      "fecha_nacimiento": "1959-11-26",
+      "url_imagen": "https://picsum.photos/300/400/?random=40",
+      "biografia": "Actor británico conocido por 'The Lord of the Rings'"
+    },
+    {
+      "id": "a1b2c3d4-6f8c-b5ac-e9af-cad0f98801cc",
+      "nombre": "Elijah",
+      "apellidos": "Wood",
+      "fecha_nacimiento": "1980-01-15",
+      "url_imagen": "https://picsum.photos/300/400/?random=41",
+      "biografia": "Actor estadounidense conocido por 'The Lord of the Rings'"
+    },
+    {
+      "id": "8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c69",
+      "nombre": "John",
+      "apellidos": "Rhys-Davies",
+      "fecha_nacimiento": "1951-05-01",
+      "url_imagen": "https://picsum.photos/300/400/?random=42",
+      "biografia": "Actor británico conocido por 'The Lord of the Rings'"
+    },
+    {
+      "id": "123e4567-bc1a-4ab8-9f0d-2b8ca3f9e8fb",
+      "nombre": "Leonardo",
+      "apellidos": "DiCaprio",
+      "fecha_nacimiento": "1974-11-05",
+      "url_imagen": "https://picsum.photos/300/400/?random=43",
+      "biografia": "Actor y músico estadounidense conocido por películas como 'The Revenant' y 'Django Unchained'"
+    },
+    {
+      "id": "1a2b3c4d-5dcf-6ef8-bdf9-cad0f98801cc",
+      "nombre": "Samuel L.",
+      "apellidos": "Jackson",
+      "fecha_nacimiento": "1959-11-21",
+      "url_imagen": "https://picsum.photos/300/400/?random=44",
+      "biografia": "Actor estadounidense conocido por 'Pulp Fiction' y 'Django Unchained'"
+    },
+    {
+      "id": "f1b2c3d4-e6c8-45a9-b5ac-69ef730cb55z",
+      "nombre": "Russell",
+      "apellidos": "Crowe",
+      "fecha_nacimiento": "1959-04-07",
+      "url_imagen": "https://picsum.photos/300/400/?random=45",
+      "biografia": "Actor neozelandés conocido por 'Gladiator'"
+    },
+    {
+      "id": "a1b2c3d4-6f8c-b5ac-e9af-cad0f98801cz",
+      "nombre": "Jenifer",
+      "apellidos": "Connelly",
+      "fecha_nacimiento": "1971-12-26",
+      "url_imagen": "https://picsum.photos/300/400/?random=46",
+      "biografia": "Actriz estadounidense conocida por 'Gladiator'"
+    },
+    {
+      "id": "8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c68",
+      "nombre": "Richard",
+      "apellidos": "Armitage",
+      "fecha_nacimiento": "1950-03-29",
+      "url_imagen": "https://picsum.photos/300/400/?random=47",
+      "biografia": "Actor británico conocido por 'Gladiator'"
+    },
+    {
+      "id": "1a2b3c4d-5dcf-6ef8-bdf9-cad0f98801cb",
+      "nombre": "Joseph",
+      "apellidos": "Gordon-Levitt",
+      "fecha_nacimiento": "1972-02-26",
+      "url_imagen": "https://picsum.photos/300/400/?random=3",
+      "biografia": "Actor y director estadounidense, conocido por películas como 'The Dark Knight' y 'Inception'"
+    },
+    {
+      "id": "6d8285be-bc1a-4ab8-9f0d-2b8ca3f9e8fr",
+      "nombre": "Ellen",
+      "apellidos": "Page",
+      "fecha_nacimiento": "1982-11-08",
+      "url_imagen": "https://picsum.photos/300/400/?random=4",
+      "biografia": "Actriz canadiense conocida por 'Juno' y 'Inception'"
+    },
+    {
+      "id": "1a2b3c4d-5dcf-6ef8-bdf9-cad0f98801aa",
+      "nombre": "Kate",
+      "apellidos": "Winslet",
+      "fecha_nacimiento": "1975-05-26",
+      "url_imagen": "https://picsum.photos/300/400/?random=7",
+      "biografia": "Actriz británica conocida por 'Evanescer' y 'Titanic'"
+    },
+    {
+      "id": "8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c85",
+      "nombre": "James",
+      "apellidos": "Cameron",
+      "fecha_nacimiento": "1954-08-15",
+      "url_imagen": "https://picsum.photos/300/400/?random=8",
+      "biografia": "Director, guionista y productor estadounidense"
+    },
+    {
+      "id": "f1b2c3d4-e6c8-45a9-b5ac-69ef730cb599",
+      "nombre": "Keanu",
+      "apellidos": "Reeves",
+      "fecha_nacimiento": "1958-09-26",
+      "url_imagen": "https://picsum.photos/300/400/?random=10",
+      "biografia": "Actor estadounidense conocido por 'The Matrix' y 'John Wick'"
+    },
+    {
+      "id": "6d8285be-bc1a-4ab8-9f0d-2b8ca3f9e8fb",
+      "nombre": "Morgan",
+      "apellidos": "Freeman",
+      "fecha_nacimiento": "1939-06-03",
+      "url_imagen": "https://picsum.photos/300/400/?random=11",
+      "biografia": "Actor y narrador estadounidense conocido por 'The Dark Knight' y 'The Matrix'"
+    },
+    {
+      "id": "a1b2c3d4-6f8c-b5ac-e9af-cad0f98801mt",
+      "nombre": "María del Rosario",
+      "apellidos": "De la Peña",
+      "fecha_nacimiento": "1970-12-08",
+      "url_imagen": "https://picsum.photos/300/400/?random=12",
+      "biografia": "Actriz mexicana conocida por 'The Matrix'"
+    },
+    {
+      "id": "f1b2c3d4-e6c8-45a9-b5ac-69ef730cb55e",
+      "nombre": "Robert",
+      "apellidos": "Downey Jr.",
+      "fecha_nacimiento": "1969-06-04",
+      "url_imagen": "https://picsum.photos/300/400/?random=14",
+      "biografia": "Actor estadounidense conocido por 'Iron Man' y 'Avengers'"
+    },
+    {
+      "id": "a1b2c3d4-6f8c-b5ac-e9af-cad0f98801cb",
+      "nombre": "Chris",
+      "apellidos": "Evans",
+      "fecha_nacimiento": "1983-06-03",
+      "url_imagen": "https://picsum.photos/300/400/?random=15",
+      "biografia": "Actor estadounidense conocido por 'Captain America' y 'Avengers'"
+    },
+    {
+      "id": "8ab9cdbe-c3ad-4da2-bcf0-01a1c51d8c70",
+      "nombre": " Scarlett",
+      "apellidos": "Johansson",
+      "fecha_nacimiento": "1975-04-22",
+      "url_imagen": "https://picsum.photos/300/400/?random=16",
+      "biografia": "Actriz estadounidense conocida por 'The Avengers' y 'Lucy'"
+    }
+  ]
+}
