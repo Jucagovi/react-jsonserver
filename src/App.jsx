@@ -21,6 +21,36 @@ function App() {
       });
   };
 
+  const crearInterprete = () => {
+    return {
+      id: crypto.randomUUID(),
+      nombre: "Sin Nombre",
+      apellidos: "Sin apellidos",
+      fecha_nacimiento: "000-00-00",
+      url_imagen: "https://picsum.photos/300/400/?random=54",
+      biografia: "Actor conocido por una película",
+    };
+  };
+
+  //console.log(crearInterprete());
+
+  const insertarInterprete = () => {
+    fetch("http://localhost:3000/actores", {
+      method: "POST",
+      body: JSON.stringify(crearInterprete()),
+      headers: { "Content-Type": "application/json" },
+    })
+      .then((respuesta) => {
+        return respuesta.json();
+      })
+      .catch((error) => {
+        console.log(error);
+      })
+      .then((datos) => {
+        console.log("Éxito");
+      });
+  };
+
   useEffect(() => {
     traerDatos("http://localhost:3000/peliculas", setPeliculas);
     traerDatos("http://localhost:3000/actores", setInterpretes);
@@ -28,6 +58,14 @@ function App() {
 
   return (
     <>
+      <button
+        onClick={() => {
+          console.log("Intentando insertar un intérprete.");
+          insertarInterprete();
+        }}
+      >
+        Añadir intérprete al servidor
+      </button>
       <h2>Listado de películas.</h2>
       <div>
         {peliculas.length
@@ -42,8 +80,6 @@ function App() {
             return <Interprete key={interprete.id} datos={interprete} />;
           })
         : "No se han encontrado intérpretes"}
-      {console.log(peliculas.length)}
-      {console.log(interpretes.length)}
     </>
   );
 }
