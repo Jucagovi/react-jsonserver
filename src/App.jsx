@@ -1,60 +1,26 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Pelicula from "./components/Pelicula.jsx";
 import Interprete from "./components/Interprete.jsx";
 import "./App.css";
+import { contextoPeliculas } from "./contexts/ProveedorPeliculas.jsx";
 
 function App() {
-  const [peliculas, setPeliculas] = useState([]);
-  const [interpretes, setInterpretes] = useState([]);
-  const [errorGeneral, setErrorGeneral] = useState("");
+  const {
+    insertarInterprete,
+    borrarInterprete,
+    actualizarInterprete,
+    peliculas,
+    interpretes,
+  } = useContext(contextoPeliculas);
 
-  const traerDatos = (URL, setter) => {
-    fetch(URL)
-      .then((respuesta) => {
-        return respuesta.json();
-      })
-      .then((datos) => {
-        setter(datos);
-      })
-      .catch((error) => {
-        setErrorGeneral(error);
-      });
+  const interprete = {
+    id: "7875c83a-9b8c-4dc9-9e46-fd9a6d6161ed",
+    nombre: "Francisco",
+    apellidos: "Lucas ",
+    fecha_nacimiento: "2010-11-11",
+    url_imagen: "https://picsum.photos/300/400/?random=531",
+    biografia: "Actor.",
   };
-
-  const crearInterprete = () => {
-    return {
-      id: crypto.randomUUID(),
-      nombre: "Sin Nombre",
-      apellidos: "Sin apellidos",
-      fecha_nacimiento: "000-00-00",
-      url_imagen: "https://picsum.photos/300/400/?random=54",
-      biografia: "Actor conocido por una película",
-    };
-  };
-
-  //console.log(crearInterprete());
-
-  const insertarInterprete = () => {
-    fetch("http://localhost:3000/actores", {
-      method: "POST",
-      body: JSON.stringify(crearInterprete()),
-      headers: { "Content-Type": "application/json" },
-    })
-      .then((respuesta) => {
-        return respuesta.json();
-      })
-      .catch((error) => {
-        console.log(error);
-      })
-      .then((datos) => {
-        console.log("Éxito");
-      });
-  };
-
-  useEffect(() => {
-    traerDatos("http://localhost:3000/peliculas", setPeliculas);
-    traerDatos("http://localhost:3000/actores", setInterpretes);
-  }, []);
 
   return (
     <>
@@ -65,6 +31,22 @@ function App() {
         }}
       >
         Añadir intérprete al servidor
+      </button>
+      <button
+        onClick={() => {
+          console.log("Intentando borrar intérprete.");
+          //borrarInterprete("622ff59d-3785-44cf-af42-b8013a8980fc");
+        }}
+      >
+        Borrar intérprete del servidor
+      </button>
+      <button
+        onClick={() => {
+          console.log("Intentando actualizar intérprete.");
+          actualizarInterprete(interprete);
+        }}
+      >
+        Actualizar intérprete del servidor
       </button>
       <h2>Listado de películas.</h2>
       <div>
