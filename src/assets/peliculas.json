@@ -284,6 +284,22 @@
       "fecha_nacimiento": "1975-04-22",
       "url_imagen": "https://picsum.photos/300/400/?random=16",
       "biografia": "Actriz estadounidense conocida por 'The Avengers' y 'Lucy'"
+    },
+    {
+      "id": "a44f4dbf-59d5-421a-8e2b-854a40601ffc",
+      "nombre": "Sin Nombre",
+      "apellidos": "Sin apellidos",
+      "fecha_nacimiento": "000-00-00",
+      "url_imagen": "https://picsum.photos/300/400/?random=54",
+      "biografia": "Actor conocido por una película"
+    },
+    {
+      "id": "f6d9a2f1-a2fe-44fd-ac49-b0ddc885afbc",
+      "nombre": "Sin Nombre",
+      "apellidos": "Sin apellidos",
+      "fecha_nacimiento": "000-00-00",
+      "url_imagen": "https://picsum.photos/300/400/?random=54",
+      "biografia": "Actor conocido por una película"
     }
   ]
 }
