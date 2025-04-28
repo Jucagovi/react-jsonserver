@@ -286,29 +286,12 @@
       "biografia": "Actriz estadounidense conocida por 'The Avengers' y 'Lucy'"
     },
     {
-<<<<<<< HEAD
-      "id": "a44f4dbf-59d5-421a-8e2b-854a40601ffc",
-      "nombre": "Sin Nombre",
-      "apellidos": "Sin apellidos",
-      "fecha_nacimiento": "000-00-00",
-      "url_imagen": "https://picsum.photos/300/400/?random=54",
-      "biografia": "Actor conocido por una película"
-    },
-    {
-      "id": "f6d9a2f1-a2fe-44fd-ac49-b0ddc885afbc",
-      "nombre": "Sin Nombre",
-      "apellidos": "Sin apellidos",
-      "fecha_nacimiento": "000-00-00",
-      "url_imagen": "https://picsum.photos/300/400/?random=54",
-      "biografia": "Actor conocido por una película"
-=======
       "id": "7875c83a-9b8c-4dc9-9e46-fd9a6d6161ed",
       "nombre": "Francisco",
       "apellidos": "Lucas ",
       "fecha_nacimiento": "2010-11-11",
       "url_imagen": "https://picsum.photos/300/400/?random=531",
       "biografia": "Actor."
->>>>>>> 0275c1c0609112e3c10feb4ba91bf7eb0a55d23f
     }
   ]
 }
