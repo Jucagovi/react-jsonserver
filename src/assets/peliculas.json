@@ -284,14 +284,6 @@
       "fecha_nacimiento": "1975-04-22",
       "url_imagen": "https://picsum.photos/300/400/?random=16",
       "biografia": "Actriz estadounidense conocida por 'The Avengers' y 'Lucy'"
-    },
-    {
-      "id": "7875c83a-9b8c-4dc9-9e46-fd9a6d6161ed",
-      "nombre": "Francisco",
-      "apellidos": "Lucas ",
-      "fecha_nacimiento": "2010-11-11",
-      "url_imagen": "https://picsum.photos/300/400/?random=531",
-      "biografia": "Actor."
     }
   ]
 }
